@@ -1,0 +1,10 @@
+api_platform:
+  title: "API REST symfony - Contact EOS"
+  description: "Une API pour la partie contact"
+  version: "1.0.0"
+  mapping:
+    paths: ["%kernel.project_dir%/src/Entity"]
+  patch_formats:
+    json: ["application/json"]
+  swagger:
+    versions: [3]
